@@ -1,7 +1,7 @@
 # Ice Breaker App
 
 ## Project Overview
-Ice Breaker is a web application that generates personalized conversation starters. Simply enter a name, and the app will fetch the person’s LinkedIn and Twitter details, then use AI to generate a brief summary, interesting facts, icebreaker questions, and topics of interest.
+Ice Breaker is a web application that generates personalized conversation starters. Simply enter a name, and the app will fetch the person’s LinkedIn and Twitter details, then use langchain agents to generate a brief summary, interesting facts, icebreaker questions, and topics of interest.
 
 ## Features
 - **Automatic Profile Lookup:** Finds LinkedIn and Twitter profiles based on the provided name.
@@ -53,12 +53,6 @@ Ice Breaker is a web application that generates personalized conversation starte
 
 ## Demo
 ![ice_breaker_demo_img](https://github.com/user-attachments/assets/5554b749-bba1-4242-b18c-aadbf46bb994)
-
-## Contributing
-Contributions are welcome!  
-- **Issues:** Open an issue for bugs or feature requests.
-- **Pull Requests:** Fork the repository, make changes, and submit a pull request.  
-- **Code Style:** Follow existing code style and update documentation as needed.
 
 ## License
 This project is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for details.
